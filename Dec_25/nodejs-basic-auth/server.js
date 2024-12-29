@@ -12,7 +12,7 @@ app.post("/register", authController.register);
 app.post("/login", authController.login);
 app.get("/secure", jwtMiddleware.verifyToken, authController.securePage);
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log(`Server is running on ${PORT}`);
 });
