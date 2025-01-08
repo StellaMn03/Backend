@@ -1,8 +1,8 @@
 const token = localStorage.getItem("jwt");
+
 if (!token) {
-  window.location.href = "index.html";
+  alert("Access denied.Please log in first.");
 }
-console.log("se urrrr");
 fetch("http://localhost:8080/secure", {
   headers: { Authorization: `Bearer ${token}` },
 })
@@ -16,6 +16,7 @@ fetch("http://localhost:8080/secure", {
   })
   .then((data) => {
     document.getElementById("secureContent").textContent = data;
+    // localStorage.removeItem("jwt");
   })
   .catch((error) => {
     console.log(error);

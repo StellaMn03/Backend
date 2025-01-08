@@ -13,7 +13,6 @@ document
 
     if (response.ok) {
       alert("Registration successful");
-      window.location.href = "index.html";
     } else {
       const errorMes = await response.text();
       alert(errorMes);

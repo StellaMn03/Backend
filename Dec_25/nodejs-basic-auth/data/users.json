@@ -74,5 +74,21 @@
   "f": {
     "username": "f",
     "password": "$2a$12$IH.UTkqvYcs08yfYGrO.6u6VKAVaK1wpTGCZuQ6Xeivfwxwjndc.G"
+  },
+  "Meri": {
+    "username": "Meri",
+    "password": "$2a$12$rn0lws9G/w9M4GCDwkVK0eSLpzlwb0Qq7lFUu9Qn7qt37oZQdeX5m"
+  },
+  "M": {
+    "username": "M",
+    "password": "$2a$12$WvafDNE8D9z3gPgM94tsc.PXe7kgHbVJlI9zxw/.0c9Ym.LJMlKEW"
+  },
+  "L": {
+    "username": "L",
+    "password": "$2a$12$mittMpsrMxIiP2HEzoInbeVpw8Iqr26NJ78TW4ez.5sYh5h4Yd3LC"
+  },
+  "Me": {
+    "username": "Me",
+    "password": "$2a$12$hxUtrs6hAb.TKelo.hDcU.DWdHNCWI806vMQerlrziUNz41YtF9FG"
   }
 }
